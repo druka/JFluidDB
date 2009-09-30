@@ -1,4 +1,4 @@
-package com.fluidinfo.tests;
+package com.fluidinfo;
 
 import static org.junit.Assert.*;
 import java.io.IOException;

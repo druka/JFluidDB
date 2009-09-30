@@ -12,7 +12,7 @@
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.7</version>
-      <scope>compile</scope>
+      <scope>test</scope>
     </dependency>
     <dependency>
         <groupId>org.json</groupId>
@@ -41,7 +41,6 @@
         </configuration>
       </plugin>
     </plugins>
-    <sourceDirectory>src</sourceDirectory>
   </build>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

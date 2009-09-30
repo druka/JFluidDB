@@ -1,4 +1,4 @@
-package com.fluidinfo.fom.tests;
+package com.fluidinfo.fom;
 
 import static org.junit.Assert.*;
 
@@ -11,8 +11,7 @@ import org.junit.*;
 
 import com.fluidinfo.FluidException;
 import com.fluidinfo.FluidResponse;
-import com.fluidinfo.fom.*;
-import com.fluidinfo.tests.TestUtils;
+import com.fluidinfo.TestUtils;
 import com.fluidinfo.utils.Method;
 import com.fluidinfo.utils.StringUtil;
 

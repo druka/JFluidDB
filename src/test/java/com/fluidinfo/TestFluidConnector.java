@@ -1,4 +1,4 @@
-package com.fluidinfo.tests;
+package com.fluidinfo;
 
 import java.util.Hashtable;
 import java.util.UUID;
@@ -6,7 +6,6 @@ import java.util.UUID;
 import junit.framework.TestCase;
 import org.junit.*;
 
-import com.fluidinfo.*;
 import com.fluidinfo.utils.Method;
 
 import org.json.JSONObject;

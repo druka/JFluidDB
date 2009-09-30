@@ -1,4 +1,4 @@
-package com.fluidinfo.tests;
+package com.fluidinfo;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -55,10 +55,8 @@ public class TestUtils {
 	 * @throws Exception 
 	 */
 	public static JSONObject getSettings() throws Exception {
-		// Read the credentials.json file found in the home directory of the user 
-		// running the unit tests
-		File file = new File(System.getProperty("user.home"), "credentials.json");
-		StringBuffer contents = new StringBuffer();
+	File file = new File("src/test/credentials.json");
+	StringBuffer contents = new StringBuffer();
         BufferedReader reader = null;
         try{
             reader = new BufferedReader(new FileReader(file.getPath()));

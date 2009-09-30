@@ -1,9 +1,8 @@
-package com.fluidinfo.utils.tests;
+package com.fluidinfo.utils;
 
 import static org.junit.Assert.*;
 import java.util.Vector;
 import org.junit.*;
-import com.fluidinfo.utils.*;
 
 /**
  * Checking the string utils (currently only join) work correctly

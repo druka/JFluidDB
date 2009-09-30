@@ -1,4 +1,4 @@
-package com.fluidinfo.fom.tests;
+package com.fluidinfo.fom;
 
 import static org.junit.Assert.*;
 
@@ -6,8 +6,7 @@ import java.io.IOException;
 import org.junit.*;
 import org.json.JSONException;
 import com.fluidinfo.*;
-import com.fluidinfo.fom.*;
-import com.fluidinfo.tests.TestUtils;
+import com.fluidinfo.TestUtils;
 import com.fluidinfo.utils.StringUtil;
 
 import java.util.UUID;
