@@ -5,7 +5,6 @@ import java.io.IOException;
 import org.junit.*;
 import org.json.JSONException;
 import org.json.JSONObject;
-import com.fluidinfo.*;
 import com.fluidinfo.fom.*;
 
 /**
