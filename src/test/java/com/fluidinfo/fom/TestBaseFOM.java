@@ -139,7 +139,6 @@ public class TestBaseFOM extends BaseFOM {
 		}
 	}
 
-	@Override
 	public void getItem() throws FluidException, IOException, FOMException,
 			JSONException {
 		// Doesn't do anything in this class but here because BaseFOM implements FOMInterface		

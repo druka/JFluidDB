@@ -84,7 +84,6 @@ public class Tag extends BaseFOM {
 		this.name = this.GetNameFromPath(path);
 	}
 
-	@Override
 	public void getItem() throws FluidException, IOException, FOMException,
 			JSONException {
 		Hashtable<String, String> args = new Hashtable<String, String>();

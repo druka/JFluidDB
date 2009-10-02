@@ -62,7 +62,6 @@ public class User extends BaseFOM{
 		this.name = this.GetNameFromPath(path);
 	}
 
-	@Override
 	public void getItem() throws FluidException, IOException, FOMException,
 			JSONException {
 		FluidResponse response = this.Call(Method.GET, 200, "");
